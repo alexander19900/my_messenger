@@ -3,4 +3,4 @@ branch_protection:
     - target: default_branch
       message: "Нельзя пушить напрямую в main! Создавай Pull Request"
       rules:
-        - prevent_non_pr_changes
+        - prevent_non_mr_changes
